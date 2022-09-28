@@ -18,8 +18,8 @@ def main():
     circumference = constants.TAU * radius
 
     # output
-    print("The circumference is {0} mm².".format(circumference))
-    
+    print("The circumference is {0} mm².".format(round(circumference, 2)))
+
     print("\nDone.")
 
 
